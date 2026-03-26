@@ -1,0 +1,60 @@
+2026-03-26 18:33:40,291 - data_preprocessing - DEBUG - Data loaded properly
+2026-03-26 18:33:40,292 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-03-26 18:33:40,294 - data_preprocessing - DEBUG - Target column encoded
+2026-03-26 18:33:40,309 - data_preprocessing - DEBUG - Duplicates removed
+2026-03-26 18:33:40,312 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - 'C:\\Users\\shubh/nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-26 18:33:40,313 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - 'C:\\Users\\shubh/nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\shubh\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-26 18:37:51,579 - data_preprocessing - DEBUG - Data loaded properly
+2026-03-26 18:37:51,579 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-03-26 18:37:51,580 - data_preprocessing - DEBUG - Target column encoded
+2026-03-26 18:37:51,583 - data_preprocessing - DEBUG - Duplicates removed
+2026-03-26 18:37:52,442 - data_preprocessing - DEBUG - Text column transformed
+2026-03-26 18:37:52,442 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-03-26 18:37:52,443 - data_preprocessing - DEBUG - Target column encoded
+2026-03-26 18:37:52,445 - data_preprocessing - DEBUG - Duplicates removed
+2026-03-26 18:37:52,651 - data_preprocessing - DEBUG - Text column transformed
+2026-03-26 18:37:52,670 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
