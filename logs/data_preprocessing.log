@@ -98,3 +98,63 @@
 2026-03-26 20:28:58,301 - data_preprocessing - DEBUG - Duplicates removed
 2026-03-26 20:29:22,083 - data_preprocessing - DEBUG - Text column transformed
 2026-03-26 20:29:22,100 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
+2026-04-23 15:05:35,996 - data_preprocessing - DEBUG - Data loaded properly
+2026-04-23 15:05:35,997 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-04-23 15:05:35,998 - data_preprocessing - DEBUG - Target column encoded
+2026-04-23 15:05:36,008 - data_preprocessing - DEBUG - Duplicates removed
+2026-04-23 15:05:36,009 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\HP/nltk_data'
+    - 'C:\\Users\\HP\\anaconda3\\nltk_data'
+    - 'C:\\Users\\HP\\anaconda3\\share\\nltk_data'
+    - 'C:\\Users\\HP\\anaconda3\\lib\\nltk_data'
+    - 'C:\\Users\\HP\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-04-23 15:05:36,010 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\HP/nltk_data'
+    - 'C:\\Users\\HP\\anaconda3\\nltk_data'
+    - 'C:\\Users\\HP\\anaconda3\\share\\nltk_data'
+    - 'C:\\Users\\HP\\anaconda3\\lib\\nltk_data'
+    - 'C:\\Users\\HP\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-04-23 15:06:28,138 - data_preprocessing - DEBUG - Data loaded properly
+2026-04-23 15:06:28,138 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-04-23 15:06:28,139 - data_preprocessing - DEBUG - Target column encoded
+2026-04-23 15:06:28,141 - data_preprocessing - DEBUG - Duplicates removed
+2026-04-23 15:06:33,009 - data_preprocessing - DEBUG - Text column transformed
+2026-04-23 15:06:33,009 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-04-23 15:06:33,011 - data_preprocessing - DEBUG - Target column encoded
+2026-04-23 15:06:33,013 - data_preprocessing - DEBUG - Duplicates removed
+2026-04-23 15:06:38,378 - data_preprocessing - DEBUG - Text column transformed
+2026-04-23 15:06:38,387 - data_preprocessing - DEBUG - Processed data saved to ./data\interim

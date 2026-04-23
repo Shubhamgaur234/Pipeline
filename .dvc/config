@@ -1,5 +1,7 @@
 [core]
     autostage = true
-    remote = myremote
+    remote = dvcstore
 ['remote "myremote"']
     url = ../dvc_storage
+['remote "dvcstore"']
+    url = s3://dvc-s3-shubham
